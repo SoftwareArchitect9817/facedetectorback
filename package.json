@@ -1,0 +1,24 @@
+{
+  "name": "facedetector",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@canvas/image": "^1.0.1",
+    "@tensorflow/tfjs-node": "^3.18.0",
+    "@vladmandic/face-api": "^1.6.9",
+    "@vladmandic/pilogger": "^0.4.4",
+    "body-parser": "^1.20.0",
+    "canvas": "^2.9.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "multer": "^1.4.4",
+    "nodemon": "^2.0.16"
+  }
+}
